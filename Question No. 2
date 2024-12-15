@@ -1,0 +1,19 @@
+package programmingClass1;
+
+public class Class2 {
+   public static void main(String[] args) {
+	   String s = "Flowers";
+	   String r = "";
+	   char ch;
+	   
+	   for (int i = 0; i < s.length(); i++) {
+		   ch = s.charAt(i);
+		   
+		   r = ch + r;
+		   }
+  System.out.println(r);
+   }
+}
+
+//Output== srewolF
+
